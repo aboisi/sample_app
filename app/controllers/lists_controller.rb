@@ -14,13 +14,13 @@ class ListsController < ApplicationController
   end 
 
   def index
+    @lists = List.all
   end
 
   def show
   end
 
   def edit
-    #コミットの練習
   end
   
   private
