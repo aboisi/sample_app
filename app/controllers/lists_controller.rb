@@ -20,6 +20,7 @@ class ListsController < ApplicationController
   end
 
   def edit
+    #コミットの練習
   end
   
   private
